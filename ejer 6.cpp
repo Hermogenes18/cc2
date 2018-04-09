@@ -29,8 +29,6 @@ void copia1(char *s,char *t)
         {
            *s='\0';
         }
-        s++;
-        *s='\0';
     }
 }
 
@@ -57,8 +55,8 @@ void copiar2(char x[],char y[])
 }
 int main()
 {
-    char arr[]="Mundo";
-    char arr2[]="Hola";
+    char arr[]="Hello world";
+    char arr2[]="Hola Mundo";
     //cout<<cad1<<endl;
     //copiar2(arr,cad1);
     cout<<arr2<<endl;
@@ -66,3 +64,4 @@ int main()
     cout<<arr2<<endl;
 
 }
+
